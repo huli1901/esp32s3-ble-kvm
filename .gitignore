@@ -1,0 +1,35 @@
+# 构建产物
+build/
+dist/
+*.bin
+*.elf
+*.map
+*.a
+sdkconfig
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# 日志与临时文件
+*.log
+build_*.txt
+flash_*.log
+flash_log*.txt
+*.tmp
+
+# 数据集（体积大，不入库）
+dataset/
+*.jpg
+*.png
+
+# IDE / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
